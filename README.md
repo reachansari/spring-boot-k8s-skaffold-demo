@@ -33,6 +33,4 @@ Skaffold is a command line tool that facilitates continuous development for Kube
 
 ```CTRL + C``` : To stop the spring-boot app.
 
-```kubectl delete service spring-boot-k8s-skaffold-demo```: To delete the kubernetes service object.
-
-```kubectl deployment service spring-boot-k8s-skaffold-demo``` : To delete the kubernetes deployment object.
+```skaffold delete```: To delete all the kubernetes objects.
